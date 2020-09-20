@@ -1,0 +1,24 @@
+.formcontato {
+    .form-control {
+        color: $azul-escuro !important;
+        background-color: transparent !important;
+        border: 1px solid $azul-escuro;
+        padding: 3px 10px;
+
+        &::placeholder {
+            color: rgba(0, 0, 0, 0.795) !important;
+        }
+    }
+
+    label {
+        font-weight: 600;
+        color: $azul-escuro !important;
+    }
+
+    & button {
+        width: 100%;
+        &:hover {
+            border: 1px solid $azul-escuro;
+        }
+    }
+}

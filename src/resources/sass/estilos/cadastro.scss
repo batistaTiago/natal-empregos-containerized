@@ -1,0 +1,42 @@
+.containercadastro {
+    label {
+        padding: 0.2em;
+        font-size: 1.2em;
+    }
+
+    textarea {
+        border: 1px solid rgba(0, 0, 0, 0.7);
+        padding: 0.5em;
+        color: black;
+    }
+
+    input {
+        padding: 0.2em;
+        border-radius: 2px;
+    }
+
+    select {
+        width: 20vw;
+        color: black;
+    }
+}
+.divinputs {
+    display: flex;
+    flex-direction: column;
+}
+
+.inputs {
+    border: 1px solid rgba(0, 0, 0, 0.7);
+    color: rgb(95, 95, 95);
+}
+
+.mostraranuncio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.remoto {
+    display: flex;
+    align-items: center;
+}

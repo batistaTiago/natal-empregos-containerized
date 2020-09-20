@@ -1,0 +1,112 @@
+.divservico {
+    padding-top: 5em;
+    height: 100vh;
+    & h1 {
+        font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    }
+}
+
+.imagemcartaoservico {
+    width: 100%;
+    height: 180px;
+    border: 1px solid $laranja;
+}
+
+.textoscartaoservico {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.cartaoservico {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 400px;
+    margin: 0 auto;
+    text-align: center;
+    border: 1px solid rgba(13, 13, 153, 0.274);
+}
+
+.tituloservico {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    text-decoration: none;
+    & a {
+        color: $azul-escuro;
+    }
+}
+
+.descricaozinha {
+    padding: 0.5em;
+    margin-left: 5px;
+    text-align: justify;
+}
+
+.rodapeservico {
+    border-top: 2px solid transparentize($color: $azul, $amount: 0.7);
+    padding: 0.5em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.8em;
+}
+
+@media screen and (max-width: 490px) {
+    .divservico {
+        height: 100%;
+    }
+    .cartaoservico {
+        height: 325px;
+        padding: 0.5em;
+        width: 80%;
+    }
+    .heroiservico {
+        height: 20vh;
+    }
+    .imagemheroiservico {
+        height: 20vh;
+    }
+
+    .imagemcartaoservico {
+        margin: 0 auto;
+        height: 125px;
+        width: 80%;
+    }
+}
+
+@media screen and (min-width: 491px) and (max-width: 761px) {
+    .divservico {
+        height: 100%;
+    }
+    .heroiservico {
+        height: 25vh;
+    }
+
+    .cartaoservico {
+        height: 350px;
+        padding: 0.5em;
+        width: 80%;
+    }
+
+    .imagemheroiservico {
+        height: 25vh;
+    }
+    .imagemcartaoservico {
+        margin: 0 auto;
+        height: 125px;
+        width: 80%;
+    }
+}
+
+@media screen and (min-width: 762px) and (max-width: 1150px) {
+    .imagemcartaoservico {
+        margin: 0 auto;
+        height: 125px;
+        width: 80%;
+    }
+    .cartaoservico {
+        height: 350px;
+    }
+}

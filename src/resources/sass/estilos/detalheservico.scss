@@ -1,0 +1,35 @@
+.divservicopost {
+    padding: 1em;
+}
+
+.imagemservicopost {
+    text-align: center;
+    width: 100%;
+}
+
+.imagemservico {
+    margin: 3em 0;
+    width: 70%;
+    border: 2px solid $azul-escuro;
+}
+
+.cabecalhoservico {
+    padding: 1em;
+}
+
+.corposervico {
+    text-align: justify;
+    padding: 1em;
+}
+
+@media screen and (max-width: 490px) {
+    .imagemservico {
+        width: 80%;
+    }
+}
+
+@media screen and (min-width: 491px) and (max-width: 761px) {
+    .imagemservico {
+        width: 80%;
+    }
+}

@@ -1,0 +1,25 @@
+.tabelacadastro {
+    .fundoheader {
+        background-color: transparentize($azul-escuro, $amount: 0.8);
+    }
+    .fundotabela {
+        background-color: transparentize($azul, $amount: 0.8);
+    }
+    th,
+    td {
+        padding: 1em;
+    }
+    i {
+        text-align: center;
+        color: $laranja;
+    }
+}
+
+.titulotabela {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    color: black;
+}
+
+#botaotabela {
+    text-align: center;
+}

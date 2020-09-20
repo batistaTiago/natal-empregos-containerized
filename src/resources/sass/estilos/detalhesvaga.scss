@@ -1,0 +1,70 @@
+.heroivaga {
+    height: 30vh;
+    overflow: hidden;
+    background-color: rgb(0, 0, 0);
+}
+
+.imagemheroivaga {
+    width: 100%;
+    height: auto;
+}
+
+.divdetalhes {
+    padding: 2em;
+    background-color: rgb(245, 244, 244);
+    color: black;
+}
+
+.infoenvio {
+    font-size: 0.8em;
+}
+
+.divsalario {
+    display: flex;
+    padding: 0.5em;
+}
+
+.cabecalho {
+    display: flex;
+}
+
+.divsessao {
+    padding: 2em;
+    text-align: justify;
+}
+
+.titulocabeca {
+    font-size: 2em;
+}
+
+.detalhado {
+    text-align: justify;
+    padding: 0.5em;
+}
+
+.botaovaga {
+    width: 15em;
+    height: 5em;
+    color: black;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+@media screen and (max-width: 520px) {
+    .heroivaga {
+        height: 20vh;
+    }
+
+    .imagemheroivaga {
+        height: 20vh;
+    }
+}
+
+@media screen and (min-width: 521px) and (max-width: 1150px) {
+    .heroivaga {
+        height: 25vh;
+    }
+
+    .imagemheroivaga {
+        height: 25vh;
+    }
+}

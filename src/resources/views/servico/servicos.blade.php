@@ -37,11 +37,11 @@
                     Currículo criativo com consultoria
                 </h3>
                 <div class="descricaozinha">
-                    <p>*Texto dela aqui*</p>
+                    <p>Currículo criativo e assessoria do currículo</p>
                 </div>
             </div>
             <div class="rodapeservico">
-                <p>Valor: <strong>R$ 60,00</strong></p>
+                <p>Valor: <strong>R$ 90,00</strong></p>
                 <button title='botaoAgendarServico2' class="botao" data-target="#modal">Agende já</button>
             </div>
         </div>
@@ -55,7 +55,7 @@
                     Pacote master
                 </h3>
             <div class="descricaozinha">
-                <p>Instrução e aprimoramento de currículo</p>
+                <p>Elaboração de currículo e assessoria de marketing pessoal</p>
             </div>
         </div>
         <div class="rodapeservico">

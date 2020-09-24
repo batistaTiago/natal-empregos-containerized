@@ -64,7 +64,7 @@
                 <div class="parceiros">
                     <p style="font-size: 1.1em">Parceiros: </p>
                     <ul>
-                        <li>Garantistas Coding LTDA 2020</li>
+                        <li>Garantistas Coding Corp 2020</li>
                     </ul>
                 </div>
             </div>
